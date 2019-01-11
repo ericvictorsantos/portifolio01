@@ -6,7 +6,7 @@ pipeline {
                 echo 'Building..'
                 echo 'Novo'
                 echo 'teste'
-            },
+            }
              steps {
                 echo 'Building..'
                 echo 'Novo'
