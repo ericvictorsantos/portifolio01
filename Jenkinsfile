@@ -4,13 +4,23 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                echo 'Novo'
-                echo 'teste'
             }
-             steps {
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+    stages {
+        stage('Build') {
+            steps {
                 echo 'Building..'
-                echo 'Novo'
-                echo 'teste'
             }
         }
         stage('Test') {
